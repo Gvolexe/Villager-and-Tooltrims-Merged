@@ -1,0 +1,26 @@
+villager-buckets:
+  enabled: true
+  harm-reputation: false
+  console-logging: false
+  file-logging: false
+
+tool-trims:
+  auto-install-datapack: true
+  reload-data-after-install: true
+  datapack-filename: "tool-trims-v3.0.1-beta-for-1.21.9+.zip"
+  datapack-url: "https://cdn.modrinth.com/data/uXeEiQk1/versions/xkLGdqcS/tool-trims-v3.0.1-beta-for-1.21.9%2B.zip"
+  datapack-sha1: "e8d784f89e0bc5804c5bc3a920aded2fbf0a16c5"
+
+resource-packs:
+  enabled: true
+  packs:
+    villager-buckets:
+      enabled: true
+      id: "68a4b411-e409-4d89-b563-66049ba4914b"
+      url: "https://cdn.modrinth.com/data/9tf9GGch/versions/ZBgqIN0Y/VillagerInABukkitPack.zip"
+      sha1: "f2d4dd5bf8ee221234b738236099b2592c58b8e8"
+    tool-trims:
+      enabled: true
+      id: "8e2b3d79-9318-4f17-9060-d48e86f6c741"
+      url: "https://cdn.modrinth.com/data/uXeEiQk1/versions/xkLGdqcS/tool-trims-v3.0.1-beta-for-1.21.9%2B.zip"
+      sha1: "e8d784f89e0bc5804c5bc3a920aded2fbf0a16c5"

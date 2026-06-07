@@ -1,0 +1,40 @@
+name: VillagerToolTrims
+main: dev.gvol.villagertrims.VillagerToolTrimsPlugin
+version: ${version}
+api-version: '1.21'
+description: Combines villager buckets with Tool Trims support for Purpur 1.21.11.
+author: Gvol
+website: https://github.com/Gvolexe/Villager-and-Tooltrims-Merged
+
+commands:
+  villagertrims:
+    description: Shows plugin info, reloads config, and manages Tool Trims datapack installation.
+    usage: /villagertrims [reload|datapack]
+    aliases: [vtm, viab, tooltrims]
+    permission: villagertrims.commands
+
+permissions:
+  villagertrims.commands:
+    default: op
+    description: Allows access to plugin commands.
+  villagertrims.villager.pickup:
+    default: true
+    description: Allows picking up villagers in buckets.
+  villagertrims.zombie_villager.pickup:
+    default: true
+    description: Allows picking up zombie villagers in buckets.
+  villagertrims.wandering_trader.pickup:
+    default: true
+    description: Allows picking up wandering traders in buckets.
+  villagertrims.villager.place:
+    default: true
+    description: Allows placing villagers from buckets.
+  villagertrims.zombie_villager.place:
+    default: true
+    description: Allows placing zombie villagers from buckets.
+  villagertrims.wandering_trader.place:
+    default: true
+    description: Allows placing wandering traders from buckets.
+  villagertrims.harm-reputation:
+    default: false
+    description: Applies villager reputation penalty when picking up villagers.
